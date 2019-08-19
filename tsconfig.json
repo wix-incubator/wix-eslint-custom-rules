@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "target": "es5",
+    "pretty": true,
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "strictBindCallApply": true,
+    "resolveJsonModule": true
+  }
+}
