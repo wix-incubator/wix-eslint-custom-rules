@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "release": "wnpm-release --no-shrinkwrap",
     "test": "jest"
   },

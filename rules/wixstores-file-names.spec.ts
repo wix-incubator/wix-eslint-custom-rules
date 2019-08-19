@@ -1,4 +1,3 @@
-require('babel-eslint');
 const RuleTester = require('eslint').RuleTester;
 import rule from './wixstores-file-names';
 
