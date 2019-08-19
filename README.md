@@ -28,4 +28,4 @@ Now you can add any rule you want from the package like so:
 Rule | Description
 --- | ---
 `wix-custom-rules/no-wallaby-file-only` | Makes sure no `//file.only` comment (Wallby.js annotation) is left by mistake.
-`wix-custom-rules/wixstores-file-names` | File names rule - exported class files and react components should be PascalCase, everything else should be camelCase
+`wix-custom-rules/wixstores-file-names` | File names rule - exported class files and react components should be PascalCase, everything else should be camelCase. Testkits should end with `.testKit`.
