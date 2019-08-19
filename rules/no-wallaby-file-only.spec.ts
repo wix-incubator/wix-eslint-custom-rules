@@ -1,4 +1,4 @@
-const RuleTester = require('eslint').RuleTester;
+import {RuleTester} from  'eslint';
 import rule from './no-wallaby-file-only';
 
 const ruleTester = new RuleTester({

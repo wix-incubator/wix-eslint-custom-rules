@@ -1,4 +1,4 @@
-const RuleTester = require('eslint').RuleTester;
+import {RuleTester} from  'eslint';
 import rule from './wixstores-file-names';
 
 const ruleTester = new RuleTester({
