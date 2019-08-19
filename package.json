@@ -1,5 +1,5 @@
 {
-  "name": "wix-eslint-custom-rules",
+  "name": "eslint-plugin-wix-custom-rules",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
