@@ -41,7 +41,10 @@
   "jest": {
     "transform": {
       "\\.(ts|tsx)$": "ts-jest"
-    }
+    },
+    "testMatch": [
+      "**/**/*.spec.(ts|tsx)"
+    ]
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
