@@ -10,8 +10,6 @@
     "pretty": true,
     "jsx": "react",
     "lib": ["dom", "esnext"],
-    "noEmitHelpers": true,
-    "importHelpers": true,
     "noUnusedLocals": true,
     "strictBindCallApply": true,
     "resolveJsonModule": true
