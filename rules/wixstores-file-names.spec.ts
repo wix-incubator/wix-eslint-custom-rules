@@ -2,7 +2,7 @@ import {RuleTester} from  'eslint';
 import rule from './wixstores-file-names';
 
 const ruleTester = new RuleTester({
-    parser: '@typescript-eslint/parser',
+    parser: require.resolve('@typescript-eslint/parser'),
 });
 
 ruleTester.run('wixstores-file-names', rule as any, {
